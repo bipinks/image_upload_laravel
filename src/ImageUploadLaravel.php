@@ -11,14 +11,14 @@
  * See the License here <http://www.gnu.org/licenses/gpl-3.0.html>.
  ***********************************************************************/
 
-namespace App\Http\Traits;
+namespace BipinKareparambil\ImageUploadLaravel;
 
 use Aws\S3\Exception\S3Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Intervention\Image\Facades\Image;
 
-trait ImageUploadTrait
+Class ImageUploadLaravel
 {
 
     private string $uploadPath;
