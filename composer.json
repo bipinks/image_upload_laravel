@@ -1,0 +1,20 @@
+{
+    "name": "bipinkareparambil/image_upload_laravel",
+    "description": "Image upload Library for laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bipinkareparambil\\ImageUploadLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bipin Kareparambil",
+            "email": "mr.bipinks@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7"
+    }
+}
